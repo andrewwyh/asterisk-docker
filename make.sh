@@ -33,10 +33,5 @@ make
 make menuselect
 make install
 make config
-make samples
+#make samples
  
-cd /tmp
-wget https://downloads.digium.com/pub/telephony/codec_opus/asterisk-17.0/x86-64/codec_opus-17.0_current-x86_64.tar.gz
-tar xvzf codec_opus-17.0_current-x86_64.tar.gz
-cp codec_opus-17.0_1.3.0-x86_64/*.so /usr/lib/asterisk/modules/
-cp codec_opus-17.0_1.3.0-x86_64/codec_opus_config-en_US.xml /var/lib/asterisk/documentation/thirdparty

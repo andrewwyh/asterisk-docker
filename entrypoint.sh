@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$1" = "" ]; then
-  COMMAND="/usr/sbin/asterisk -T -W -U asterisk -p -nvvvdddf"
+  COMMAND="/usr/sbin/asterisk -T -W -U asterisk -p -nf"
 else
   COMMAND="$@"
 fi
